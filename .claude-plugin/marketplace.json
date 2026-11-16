@@ -1,0 +1,30 @@
+{
+  "name": "supero",
+  "description": "Supero plugins for Claude Code: build and deploy multi-tenant web apps on Supero.",
+  "owner": {
+    "name": "Supero",
+    "email": "info@supero.dev",
+    "url": "https://supero.dev"
+  },
+  "plugins": [
+    {
+      "name": "supero",
+      "source": "./plugins/supero",
+      "description": "Adds the Supero MCP server (sign in with your Supero account, no API key) and a skill that tells Claude to use the Supero MCP tools when you ask it to build an app on Supero.",
+      "category": "development",
+      "tags": ["mcp", "app-builder", "backend", "deploy"],
+      "relevance": {
+        "topic": "Supero",
+        "signals": {
+          "hosts": ["mcp.supero.dev", "api.supero.dev", "app.supero.dev"],
+          "manifestDeps": [
+            {
+              "file": "[/\\\\]requirements\\.txt$",
+              "pattern": "(^|\\n)supero(?![-\\w.])"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

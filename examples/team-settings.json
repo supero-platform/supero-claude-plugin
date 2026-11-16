@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "supero": {
+      "source": {
+        "source": "github",
+        "repo": "supero-platform/supero-claude-plugin"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "supero@supero": true
+  }
+}

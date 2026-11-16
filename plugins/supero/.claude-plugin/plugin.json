@@ -1,0 +1,27 @@
+{
+  "name": "supero",
+  "displayName": "Supero",
+  "version": "1.0.0",
+  "description": "Build and deploy multi-tenant web apps on Supero from Claude Code. Adds the Supero MCP server at https://mcp.supero.dev/mcp, where you sign in with your Supero account (no API key), and a skill that tells Claude to use the Supero MCP tools when you ask it to build an app on Supero.",
+  "author": {
+    "name": "Supero",
+    "email": "info@supero.dev",
+    "url": "https://supero.dev"
+  },
+  "homepage": "https://docs.supero.dev/developers/mcp/connect-chatgpt-claude/",
+  "repository": "https://github.com/supero-platform/supero-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "supero",
+    "mcp",
+    "app-builder",
+    "backend",
+    "deploy",
+    "multi-tenant"
+  ],
+  "icon": "./icon.png",
+  "documentationUrl": "https://docs.supero.dev/developers/mcp/connect-chatgpt-claude/",
+  "supportUrl": "https://github.com/supero-platform/supero-claude-plugin/discussions",
+  "privacyPolicyUrl": "https://supero.dev/privacy",
+  "termsOfServiceUrl": "https://supero.dev/terms"
+}

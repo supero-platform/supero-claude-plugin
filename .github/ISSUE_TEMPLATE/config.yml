@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question
+    url: https://github.com/supero-platform/supero-claude-plugin/discussions
+    about: Questions, ideas and feedback about the plugin.
+  - name: Problem building an app on Supero
+    url: https://github.com/supero-platform/supero-mcp/discussions
+    about: Build or MCP server problems belong in supero-mcp.
+  - name: Report a security problem
+    url: https://github.com/supero-platform/supero-mcp/blob/main/SECURITY.md
+    about: Please report privately, not in an issue.
