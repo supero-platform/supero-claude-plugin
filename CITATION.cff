@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this plugin in teaching or research, please cite it as below."
+title: "Supero plugin for Claude Code"
+type: software
+authors:
+  - name: "Supero"
+    website: "https://www.supero.dev"
+    email: "info@supero.dev"
+repository-code: "https://github.com/supero-platform/supero-claude-plugin"
+url: "https://www.supero.dev/mcp/"
+abstract: "Claude Code plugin that connects Claude Code to Supero's remote MCP server so it can build and deploy multi-tenant web apps on Supero."
+keywords:
+  - Claude Code
+  - plugin
+  - Model Context Protocol
+  - multi-tenant
+license: MIT
+date-released: "2026-11-16"
